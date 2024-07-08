@@ -16,6 +16,7 @@ import { provideRouter, Routes } from '@angular/router';
 const routes23 = [
     {
       path: 'feedback-and-chat',
+      title: 'feedback23Routeyy',
       loadComponent: () => import('./app/feedback-and-chat/feedback-and-chat.component').then(c => c.FeedbackAndChatComponent),
     }
 ]
